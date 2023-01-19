@@ -10,3 +10,4 @@ prophet
 pandas_datareader
 PyPortfolioOpt
 people_also_ask
+seaborn
