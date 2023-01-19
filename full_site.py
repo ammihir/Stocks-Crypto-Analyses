@@ -96,9 +96,15 @@ elif choose == "Forecasting":
         st.plotly_chart(fig)
 
     plot_raw_data()
-
+    
+    #adding this to address issues in streamlit#### 
+    def remove_timezone(dt):
+        return dt.replace(tzinfo=None)
+    ###############
+    
     # Predict forecast with Prophet.
     df_train = data[['Date','Close']]
+    df_train['Date'] = df_train['timestamp'].apply(remove_timezone) # this is also extra
     df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
 
     m = Prophet()
