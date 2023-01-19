@@ -1,0 +1,9 @@
+numpy
+streamlit
+streamlit-option-menu
+pandas
+yfinance
+ephem
+pystan
+fbprophet
+Pillow
