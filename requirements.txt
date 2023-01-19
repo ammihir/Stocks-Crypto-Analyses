@@ -7,3 +7,7 @@ streamlit_option_menu
 plotly
 matplotlib
 prophet
+pandas_datareader
+pypfopt
+people_also_ask
+json
