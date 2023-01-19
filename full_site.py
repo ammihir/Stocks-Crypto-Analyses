@@ -35,8 +35,8 @@ with st.sidebar:
     )
     
     
-#logo = Image.open(r'C:\Users\Mihir\Desktop\quant_image.jpg')
-profile = Image.open(r'C:\Users\Mihir\Desktop\finplan.png')
+#logo = Image.open(r'quant_image.jpg')
+profile = Image.open(r'finplan.png')
 if choose == "Home":
     col1, col2 = st.columns( [0.8, 0.2])
     with col1:               # To display the header text using css style
