@@ -8,6 +8,6 @@ plotly
 matplotlib
 prophet
 pandas_datareader
-pypfopt
+PyPortfolioOpt
 people_also_ask
 json
