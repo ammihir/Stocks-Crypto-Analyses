@@ -104,7 +104,7 @@ elif choose == "Forecasting":
     
     # Predict forecast with Prophet.
     df_train = data[['Date','Close']]
-    df_train['Date'] = df_train['timestamp'].apply(remove_timezone) # this is also extra
+    df_train['Date'] = df_train['Date'].apply(remove_timezone) # this is also extra
     df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
 
     m = Prophet()
