@@ -1,9 +1,9 @@
-numpy
+pillow
 streamlit
-streamlit-option-menu
 pandas
 yfinance
-ephem
 pystan
-fbprophet
-Pillow
+streamlit_option_menu
+plotly
+matplotlib
+prophet
