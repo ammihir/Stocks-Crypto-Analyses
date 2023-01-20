@@ -1,7 +1,8 @@
 # stock_application
 
 This is an app which I have put together for analysis of Stock Price. The app has been built on Streamlit and the cloud instance has been used to 
-host the app. The app can be accessed at https://ammihir-stocks-crypto-analyses-full-site-im72jn.streamlit.app/
+host the app. <br />
+The app can be accessed at https://ammihir-stocks-crypto-analyses-full-site-im72jn.streamlit.app/
 
 **Home** :  Introduction Page <br />
 **Analysis** : Analysis for a stock ticker with all the fundamentals. The data is pulled real time from Yahoo Finance. It gives a view of current price, 52 high & lows and the market cap.<br />
